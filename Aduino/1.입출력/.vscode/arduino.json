@@ -1,0 +1,5 @@
+{
+    "sketch": "button07/app.ino",
+    "board": "arduino:avr:uno",
+    "port": "COM3"
+}
