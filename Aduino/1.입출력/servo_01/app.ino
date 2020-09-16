@@ -16,7 +16,7 @@ void motorControl() {
     int angle = poten.read();
     servoMoter.write(angle);
 
-    sprintf(buf, "amngle : 3d%", angle);
+    sprintf(buf, "angle : 3d%", angle);
     lcd.setCursor(0, 0);
     lcd.print(buf);
 }
@@ -38,7 +38,7 @@ void loop() {
     int angle = poten.read();
     servoMoter.write(angle);
 
-    sprintf(buf, "angle : 3d%", angle);
+    sprintf(buf, "angle : %3d", angle);
     lcd.setCursor(0, 0);
     lcd.print(buf);
 }

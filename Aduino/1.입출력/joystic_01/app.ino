@@ -1,4 +1,4 @@
-#include <LiquidCrystal_I2C.h
+#include <LiquidCrystal_I2C.h>
 #include <Button.h>
 #include <AnalogSensor.h>
 
@@ -20,6 +20,8 @@ void readJoystick() {
     lcd.print(buf);
 
     spritf(buf, "z: %d", z);
+    lcd.setCursor(0, 1);
+    lcd.print(buf);
 }
 
 void setup() {
