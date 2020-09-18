@@ -1,5 +1,5 @@
 {
-    "sketch": "wifi02\\app.ino",
+    "sketch": "Pir01\\app.ino",
     "board": "arduino:avr:uno",
     "port": "COM3"
 }
