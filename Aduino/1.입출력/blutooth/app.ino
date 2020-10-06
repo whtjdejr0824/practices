@@ -2,7 +2,7 @@
 
 SoftwareSerial BTSerial(2, 3); // SoftwareSerial(RX, TX)
 
-String myString=""; // 받는ㄴ 문자열
+String myString=""; // 받는 문자열
 
 void setup() {
   BTSerial.begin(38400);

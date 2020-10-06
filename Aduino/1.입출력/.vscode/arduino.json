@@ -1,5 +1,5 @@
 {
-    "sketch": "Pir01\\app.ino",
+    "port": "COM3",
     "board": "arduino:avr:uno",
-    "port": "COM3"
+    "sketch": "car\\app.ino"
 }

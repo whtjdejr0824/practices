@@ -3,22 +3,16 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:\\Users\\whtjd\\OneDrive\\문서\\Arduino\\libraries\\PubSubClient\\src",
-                "C:\\Users\\whtjd\\OneDrive\\문서\\Arduino\\libraries\\**",
                 "C:\\Program Files (x86)\\Arduino\\tools\\**",
-                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\**",
-                "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\**"
+                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\**"
             ],
             "forcedInclude": [
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
             ],
-            "intelliSenseMode": "gcc-x64",
+            "intelliSenseMode": "msvc-x64",
             "compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
             "cStandard": "c11",
-            "cppStandard": "c++17",
-            "defines": [
-                "USBCON"
-            ]
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
