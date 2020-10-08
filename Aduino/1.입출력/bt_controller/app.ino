@@ -44,7 +44,7 @@ void changeMode(){
         joy.setRangeX(-255, 255);
         led.off();
     } else{ // 카메라 방향 모드
-        joy.setRangeX(0, 180);
+        joy.setRangeX(0, 90);
         led.on();
     }
 }

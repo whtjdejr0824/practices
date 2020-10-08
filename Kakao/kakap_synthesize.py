@@ -6,7 +6,7 @@ from pydub.playback import play
 URL = "https://kakaoi-newtone-openapi.kakao.com/v1/synthesize"
 HEADERS = {
 "Content-Type" : "application/xml",
-"Authorization" : "KakaoAK ----------"
+"Authorization" : "KakaoAK c90d79b841454ea08b11a3a3bbf873d8"
 }
 
 DATA = """

@@ -14,7 +14,7 @@ def control(tokens):
         angle = int(tokens[1])
         servo.angle = angle
 
-RFADDR = "98:D3:51:F9:44:A9"
+RFADDR = "00:18:91:D7:9F:C4"
 client_socket=BtSocket( RFCOMM ) 
 client_socket.connect((RFADDR, 1)) 
 
