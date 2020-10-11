@@ -5,7 +5,7 @@ from gpiozero import Robot, DistanceSensor
 from time import sleep
 
 #left/right(전진,후진,PWM)
-car = Robot(left=(17, 27, 22), right=(15, 18, 14), pwm=True)
+car = Robot(left=(15, 18, 14), right=(17, 27, 22,), pwm=True)
 sensor = DistanceSensor(echo=23, trigger=24)
 
 def car_control(x, y):
