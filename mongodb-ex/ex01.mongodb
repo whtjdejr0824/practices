@@ -1,0 +1,17 @@
+use('testDB');
+
+db.myCollection.insertOne({x:1});
+db.myCollection.insertOne({x:2, name: "hong"});
+
+db.myCollection.insertOne({
+  title:"게시판등록",
+  contnet: "게시판 내용",
+  up_vote: 1,
+  is_visible: true,
+  comments: [
+      {username: "홍길동", content: "댓글내용"},
+      {username: "글쓴이", content: "댓글내용"},
+  ]
+})
+
+db.
