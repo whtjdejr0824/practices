@@ -2,7 +2,7 @@ import requests
 import json
 kakao_speech_url = "https://kakaoi-newtone-openapi.kakao.com/v1/recognize"
 
-rest_api_key = 'c90d79b841454ea08b11a3a3bbf873d8'
+rest_api_key = '#'
 
 headers = {
     "Content-Type": "application/octet-stream",

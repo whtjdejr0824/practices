@@ -26,7 +26,7 @@ class MJpegStreamCam(USBCam):
             _, jpg = cv2.imencode('.JPEG', frame)
             yield (
                 b'--myboundrary\n'
-                b'--Content-Type:image/jpeg\n'
-                b'--Content-Length: '+ f"{len(jpg)}".encode() + b'\n'
-                b'\n' + jpgtobytes() + b'\n'
+                b'Content-Type:image/jpeg\n'
+                b'Content-Length: '+ f"{len(jpg)}".encode() + b'\n'
+                b'\n' + jpg.tobytes() + b'\n'
             )

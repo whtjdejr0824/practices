@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
 from django.http import HttpResponse, StreamingHttpResponse
-from mysite.usbcam import MJpegStreamCam
+# from mysite.usbcam import MJpegStreamCam
+from mysite.picam import MJpegStreamCam
 
 mjpegstream = MJpegStreamCam()
 class CamView(TemplateView):
@@ -18,4 +19,4 @@ def snapshot(request):
 
 def mjpeg_stream(request):
     return StreamingHttpResponse(mjpegstream,
-            content_type='multipart/x-mixed-replace;boundary=myboundary')
+            content_type='multipart/x-mixed-replace;boundary=--myboundary')
