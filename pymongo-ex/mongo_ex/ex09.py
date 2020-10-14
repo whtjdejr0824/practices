@@ -9,7 +9,7 @@ iot_db = db_client['iot_service']
 sensors_col = iot_db['sensors']
 
 query = {"value":{"$lt":55.1}}
-# query = { "_id" : ObjectId("5f83e9a415e7875117e4849c")} # 데이터 한개를 삭제할때 이방법이 더 일반적
+# query = { "_id" : ObjectId("#")} # 데이터 한개를 삭제할때 이방법이 더 일반적
 # sensors_col.delete_one(query)
 sensors_col.delete_many(query)
 

@@ -4,7 +4,7 @@ from datetime import datetime
 import random
 
 # mongodb = MongoClient("mongodb://localhost:27017/")
-mongodb = MongoClient("mongodb://192.168.1.194:27017/") # 라즈베리파이일 경우 localhost 대신 IP입력
+mongodb = MongoClient("mongodb://#:27017/") # 라즈베리파이일 경우 localhost 대신 IP입력
 db = mongodb.iot_service
 
 # db = MongoClient("mongodb://localhost:27017/")
